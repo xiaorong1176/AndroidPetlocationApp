@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/set_number" android:title="设置号码"></item>
+	<item android:id="@+id/set_time" android:title="设置刷新时间"></item>
+	<item android:id="@+id/initiation" android:title="恢复默认"></item>"
+    
+</menu>

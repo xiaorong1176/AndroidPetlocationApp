@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">petloc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="back_button">返回</string>
+    <string name="function_button">设置</string>
+    
+ <drawable name="clr_normal">#ff6501</drawable>
+ <drawable name="clr_pressed">#a44100</drawable>
+    
+
+</resources>

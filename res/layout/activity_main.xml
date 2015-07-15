@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|center_horizontal"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent" >
+
+        <include layout="@layout/top_bar"/>
+    </LinearLayout>
+    
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fullscreen_content_top"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:clickable="true" />
+    
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fullscreen_content_top"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="3dp"
+        android:textSize="18sp"
+        android:textColor="#ff0000" />     
+          
+  	<Button
+        android:id="@+id/send_message"
+        android:text="位置\n信息"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+         android:textSize="14dip"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="125dp" 
+         android:background="@drawable/login_button_selector"
+        />   
+        
+  	
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/top_bar_height"
+    android:background="@drawable/top_bar_background" >
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="@dimen/bar_button_width"
+        android:layout_height="@dimen/bar_button_height"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/bar_button_marginLeft"
+        android:layout_marginTop="@dimen/bar_button_marginTop"
+        android:background="@drawable/drawable_button_surround"
+        android:text="@string/back_button"
+        android:textSize="@dimen/bar_button_text_size"
+        android:textColor="#ffffffff" />
+    
+    <TextView
+        android:id="@+id/top_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/top_bar_text_size"
+        android:text="" />
+
+    <Button
+        android:id="@+id/function_button"
+        android:layout_width="@dimen/bar_button_width"
+        android:layout_height="@dimen/bar_button_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/bar_button_marginRight"
+        android:layout_marginTop="@dimen/bar_button_marginTop"
+        android:background="@drawable/drawable_button_surround"
+        android:text="@string/function_button"
+        android:textSize="@dimen/bar_button_text_size"
+        android:textColor="#ffffffff" />
+    
+</RelativeLayout>
